@@ -26,3 +26,16 @@ In the project the severity of Diabatic Retinopathy is also considered. The seve
 Terms:
 NPDR - Nonproliferative diabetic retinopathy (NPDR), commonly known as background retinopathy, is an early stage of diabetic retinopathy. In this stage, tiny blood vessels within the retina leak blood or fluid. The leaking fluid causes the retina to swell or to form deposits called exudates.
 PDR - Proliferative diabetic retinopathy (PDR) is the advanced stage of diabetic retinopathy. It involves the development of abnormal retinal blood vessels. The vessels may leak blood and fluid into the retina and neighboring structures, leading to vision loss.
+
+# Pre-Processing of Colour Fundus Images:
+1. Reduced the size of the images.
+2. Increased the number of the images using Data Augmentation. Initially there were 413 images in the dataset. After Data Augmentation the number of images increased to 2857.
+
+# Classification:
+1. Inception Resnet V2 is used as model for training.
+2. 'Adam' is used as optimizer.
+
+# Future Scope
+1. Accuracy of this may further be increased if we use some feature detection techniques.
+2. Blood Vessel Detection and Exudate Detection can be used to increase the accuracy.
+3. In future, with increase in dataset, the model can be trained with much more accuracy.
