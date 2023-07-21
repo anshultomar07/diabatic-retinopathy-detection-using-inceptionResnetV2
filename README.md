@@ -1,4 +1,4 @@
-# diabatic-retinopathy-detection-using-inceptionResnetV2
+# Diabetic Retinopathy Detection using Inception Resnet V2
 # How to run the code?
 1. Download the dataset from https://ieee-dataport.org/open-access/indian-diabetic-retinopathy-image-dataset-idrid (if this link shows "403 Forbidden" then copy the link and paste it in your browser and run.)
 2. Create two folders "test" and "train".
